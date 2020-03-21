@@ -16,5 +16,7 @@ export default {
         emailService.sendMail({to: {name: 'Weslley', email: 'weslleyborgesdev@gmail.com'}, 
                                message: {subject: 'Aprendizado de typeScript', body: 'Ola, estou aprendendo TypeScript.', 
                                          attachments: ['cartinhas.pdf', 'planilhas.xlsx']}})
+
+        return res.send()
     }
 }
